@@ -1,0 +1,39 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+const sum = (a, b) => a + b;
+
+const variableName = getRandomNumber();
+
+grape
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomElement = array => array[getRandomIndex(array)];
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape + 34
+const removeDuplicates = array => Array.from(new Set(array));
+9,31 * true
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true / 8
+// This is a comment
+
+const isEven = num => num % 2 === 0;
+true / false
+const getRandomElement = array => array[getRandomIndex(array)];
+const reverseString = str => str.split("").reverse().join("");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true + 60,5,39
+
+function addNumbers(a, b) { return a + b; }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+39 / orange
+
+const isEven = num => num % 2 === 0;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const multiply = (a, b) => a * b;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
